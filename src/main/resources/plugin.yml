@@ -1,0 +1,13 @@
+name: ScoreboardSaver
+version: ${project.version}
+main: top.ageofelysian.scoreboardsaver.ScoreboardSaver
+authors: [ajan_12]
+description: Backups scoreboards for you ;)
+commands:
+  scoreboard-backup:
+    description: Backs up the scoreboard data.
+    usage: /scoreboard-backup
+permissions:
+  scoreboardsaver.use:
+    description: The permission node to use the command scoreboard-backup.
+    default: op
